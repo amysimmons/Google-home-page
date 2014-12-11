@@ -1,0 +1,87 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	font-family: arial, sans-serif;
+	color: #222;
+}
+
+nav {
+ 	height: 60px;
+ 	width: 100%;
+ 	top: 0;
+}
+
+img {
+	margin: 0 auto;
+	display: block;
+}
+
+
+form {
+		font-weight: 400;
+	font-size: 10px;
+	position: relative;
+}
+
+.searchbar {
+	display: block;
+	margin: 0 auto;
+	width: 524px;
+	height: 20px;
+	position: relative;
+	-webkit-appearance: none;
+}
+
+.searchbar:hover {
+	border-radius: 2px solid gray;
+}
+
+
+#buttons {
+	margin: 0 auto;
+	position: relative;
+	width: 200px;
+}
+
+button {
+	display: inline-block;
+	border-radius: 0px 0px 0px 0px;
+	background-color: #f2f2f2;
+	-webkit-appearance: none;
+}
+
+footer {
+	background-color:#f2f2f2;
+	width: 100%;
+	height: 40px;
+	border-top: 1px solid #e4e4e4;
+	font-size: 10px;
+	position: absolute;
+	bottom: 0;
+	line-height: 10px;
+}
+
+footer a {
+	display: inline-block;
+	text-decoration: none;
+	color: #222;
+	font-size: 16px;
+	padding: 20px;
+
+
+}
+
+#links-left {
+	float:left;
+	margin-left: 10px;
+}
+
+#links-right {
+	float:right;
+	margin-right: 10px;
+}
+
+
+
